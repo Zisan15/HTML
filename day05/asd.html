@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="">
+
+        <table>
+            <tr>
+                <td> <label for="name">Isim</label></td>
+                <td> <input type="name" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Soyadı</label></td>
+                <td><input type="lastname" id="lastname"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Cinsiyet</label></td>
+                <td><input type="radio" name="gender" id="cinsiyetK"> 
+                <label for="cinsiyetK">Erkek</label>
+                <input type="radio" name="gender" id="cinsiyetE">
+                <label for="cinsiyetE">Erkek</label></td>
+            </tr>
+            <tr>
+                <td><label for="city">İl</label></td>
+                <td> <select name="" id="city">
+                    <option value="" disabled selected>Seçiniz</option>
+                    <option value="">Ankara</option>
+                    <option value="">Bursa</option>
+                    <option value="">Istanbul</option>
+                    <option value="">İzmir</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td> <label for="eposta">Eposta</label></td>
+                <td> <input type="email" id="eposta"> </td>
+            </tr>
+
+            <tr>
+                <td><label for="webSite">WebSitesi</label></td>
+                <td> <input type="email" id="webSite"></td>
+            </tr>
+            <tr>
+                <td><label for="tel">Telefon</label></td>
+                <td><input type="tel" id="tel"></td>
+            </tr>
+            <tr>
+                <td><label for="hobiler">Hobiler</label></td>
+                <td> <select name="" id="">
+                    <option value="" disabled selected>Seçiniz</option>
+                    <option value="">Ankara</option>
+                    <option value="">Bursa</option>
+                    <option value="">Istanbul</option>
+                    <option value="">İzmir</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="photo">Profil Fotoğrafı</label></td>
+                    <td><input type="file" id="photo"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Doğum Tarihi</label></td>
+                <td><input type="date" id="date"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="adres">Adres</label> </td> 
+                    <td> <textarea name="adres" id="adres" cols="30" rows="5"></textarea> </td>
+            </tr>
+            <tr>
+                <td><button type="submit">Kayit Ol</button></td>
+            </tr>
+        </table>
+    </form>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+  </head>
+  <body>
+
+    <p>
+        <h1 style="background-color: chocolate; color: white; text-align: center;" > KAYIT EKRANINA HOŞ GELDİNİZ </h1>
+    </p>
+
+    <form  >
+       <table style="background-color: rgb(43, 255, 0);  ">
+        <tr>
+            <td><label for="ad">Adı</label></td>
+            <td><input type="text" id="ad"></td>
+        </tr>
+        <tr>
+            <td><label for="soyad">Soy-Adı</label></td>
+            <td><input type="text" id="soyad"></td>
+        </tr>
+        
+        <tr>
+            <td><label for="cins">Cinsiyet</label></td>
+            <td><input type="radio" name="cinsiyet">Erkek
+            <input type="radio" name="cinsiyet">Kadın
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="il"></label>ilce</td>
+            <td><select name="cities" id="city" >
+                <option value="" disable selected>Seciniz!</option>
+                <option value="">İstanbul</option>
+                <option value="">Malatya</option>
+                <option value="">Ankara</option>
+                <option value="">İzmir</option>
+            </select></td>
+
+        </tr>
+
+        <tr>
+            <td><label for="email">E-mail</label></td>
+            <td><input required type="email" name="email" id="email" placeholder="example@gmail.com"></td>
+        </tr>
+
+        <tr>
+            <td><label for="site">Kişisel Site</label></td>
+            <td><input type="url" id="site" placeholder="www.mysite.com.tr"></td>
+        </tr>
+
+        <tr>
+            <td><label for="tel">Telefon</label></td>
+            <td><input type="tel" id="tel" placeholder="05555555555"></td>
+        </tr>
+
+        <tr>
+            <td><label for="hobi">Hobiler</label></td>
+            <td><input type="checkbox" name="" id="hobi">Futbol
+                <input type="checkbox" name="" id="hobi">Basketbol
+                <input type="checkbox" name="" id="hobi">Voleybol</td>
+        </tr>
+         <tr>
+           <td><label for="foto">Profil Fotoğrafı</label></td> 
+            <td><input type="file" name="" id="foto"></td>
+         </tr>
+
+         <tr>
+            <td><label for="tarih">Doğum Tarihi</label></td>
+            <td><input type="date" name="" id="tarih"></td>
+         </tr>
+         <tr>
+        <td><label for="adres">Adres Giriniz</label></td>
+         <td><textarea name="Adres" id="adres" cols="30" rows="10" placeholder="adres giriniz"></textarea></td>
+        </tr>
+            <td><a href="../day05/kayıt.html"><button type="button">Kayıt ol</button></a></td>
+
+        <td><button type="reset">Sıfırla</button></td>
+       </table>
+        
+    </form>
+  </body>
+</html>
